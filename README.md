@@ -47,6 +47,7 @@ Bắt sự kiện mouseClicked cho Jtree :
       tree.setModel(treemodel);// Nạp dữ liệu vào tree
       createChildren(File fileRoot,DefaultMutableTreeNode root);//Tạo tree con dựa vào dữ liệu
       
+JtextField tf_path đóng kết nối giữa Jtree và JTable, lấy các path của dữ liệu để các hàm có thể sử dụng
 
 *Các hàm sử dụng :
 
