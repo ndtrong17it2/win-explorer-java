@@ -2,6 +2,8 @@
 
 Tên SV : Nguyễn Đình Trọng
 
+Lớp : 17IT2
+
 Mã SV : 17IT112
 
 Đề 07
