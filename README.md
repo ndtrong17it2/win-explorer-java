@@ -6,6 +6,8 @@ Lớp : 17IT2
 
 Mã SV : 17IT112
 
+Email : ndtrong.17it2@sict.udn.vn
+
 Đề 07
 
 Câu 1 : Thiết kế giao diện File Explorer
