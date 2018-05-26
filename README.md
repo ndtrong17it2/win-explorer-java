@@ -26,7 +26,7 @@ Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
 
 3.Chọn Directory> Chọn project vừa giải nén.
 
-4.Run file.
+4.Run file : Click chuột phải vào project vừa mở > Run As > Java Application.
 
 *Hàm chính/Chức năng chính
 
