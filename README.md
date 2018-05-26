@@ -20,49 +20,6 @@ Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
 
 # Cách chạy Code
 
-Bắt sự kiện mouseReleased cho table : sẽ chạy hàm loadDataTable(MouseEvent);
-
-+ Load dữ liệu trong hàm loadData:
-
-      int row = table.getSelectedRow(); lấy vị trí đang chọn
-      String name = table.getModel().getValueAt(row, 0).toString(); //lấy giá trị đang được chọn
-
-+ Sử dụng giá trị "name " vừa lấy cùng với path hiện tại đề load table mới 
-
-      loadFile(name,TableModel) // reload dữ liệu của table khi click vào folder name
-
-+ Bật chức năng hỗ trợ chọn nhiều file cho Table bằng hàm : 
-      
-      table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-
-+ Sau đó lấy path của các file được chọn rồi lưu vào mảng String[] multiPath bằng các hàm
-
-      multiRow[] = table.getSelectedRows(); //lấy count các file được chọn
-      multiPath[i] = table.getModel().getValueAt(multirow[i], 0);
-      
-+ Sử dụng multiPath[i] để dùng cho hàm copyFile() và pasteFile() //Copy nhiều files
-
-Bắt sự kiện mouseClicked cho Jtree : 
-
-+ Load dữ liệu của tree mẹ và tree con bằng tổ hợp các hàm : 
-      
-      DefaultMutableTreeNode treeNode // Cấu trúc các tree folder
-      treemodel = new DefaultTreeModel(treeNode); // Dữ liệu của Tree
-      tree.setModel(treemodel);// Nạp dữ liệu vào tree
-      createChildren(File fileRoot,DefaultMutableTreeNode root);//Tạo tree con dựa vào dữ liệu
-      
-JtextField tf_path đóng kết nối giữa Jtree và JTable, lấy các path của dữ liệu để các hàm có thể sử dụng
-
-*Các hàm sử dụng :
-
-DefaultTableModel loadFile() : dùng để load dữ liệu cho TableModel của JTable.
-
-loadDataTable() : reload dữ liệu của Table khi có sự kiện click folder hoặc file.
-
-createChildren() : Tạo tree con cho JTree.
-
-treeAction() : Xổ các nhánh tree con khi có sự kiện click vào tree mẹ.
-
 *Hàm chính/Chức năng chính
 
 copyFile() : Copy toàn bộ path của files được chọn, sau đó đưa tất cả vào mảng String[] path.
