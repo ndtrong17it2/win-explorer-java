@@ -20,6 +20,14 @@ Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
 
 # Cách chạy Code
 
+1.Download project về máy và giải nén
+
+2.Vào Eclipse, Chọn File > Open Project form File System.
+
+3.Chọn Directory> Chọn Folder chứa project vừa tải xuống.
+
+4.Run file.
+
 *Hàm chính/Chức năng chính
 
 copyFile() : Copy toàn bộ path của files được chọn, sau đó đưa tất cả vào mảng String[] path.
