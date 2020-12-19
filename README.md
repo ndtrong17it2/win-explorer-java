@@ -1,26 +1,19 @@
+# Bugs
+Code contains so many bugs. Please fix them before execution.
+
 # win-explorer-java
 
-Tên SV : Nguyễn Đình Trọng
+1 : Thiết kế giao diện File Explorer
 
-Lớp : 17IT2
-
-Mã SV : 17IT112
-
-Email : ndtrong.17it2@sict.udn.vn
-
-Đề 07
-
-Câu 1 : Thiết kế giao diện File Explorer
-
-Câu 2 : Chức năng Copy nhiều files cùng lúc
+2 : Chức năng Copy nhiều files cùng lúc
 
 +Chức năng phụ : Mở File,Xóa File
 
-Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
+Link video hướng dẫn sử dụng : [Youtube](https://youtu.be/V47HhQ0Mhzk)
 
 # Cách chạy Code
 
-*Cách 1 : Đối với Eclipse
+*Cách 1* : Đối với Eclipse
 
 1.Download project về máy và giải nén.
 
@@ -30,7 +23,7 @@ Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
 
 4.Run file : Click chuột phải vào project vừa mở > Run As > Java Application.
 
-*Cách 2 : Chạy bằng dòng lệnh:
+*Cách 2* : Chạy bằng dòng lệnh:
 
 1. Tải và giải nén project từ github
 
@@ -49,7 +42,7 @@ Link video hướng dẫn sử dụng : https://youtu.be/V47HhQ0Mhzk
 
         java Test.Explorer
 
-*Hàm chính/Chức năng chính
+*Hàm chính/Chức năng chính*
 
 copyFile() : Copy toàn bộ path của files được chọn, sau đó đưa tất cả vào mảng String[] path.
               
